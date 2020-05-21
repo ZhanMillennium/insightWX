@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/camera/camera",
+    "pages/footprint/footprint",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffb400",
+    "navigationBarTitleText": "Insight",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "text": "城市名片",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/album.png",
+        "selectedIconPath": "images/album-active.png"
+      },
+      {
+        "text": "拍照识景",
+        "pagePath": "pages/camera/camera",
+        "iconPath": "images/camera.png",
+        "selectedIconPath": "images//camera.png"
+      },
+      {
+        "text": "历史足迹",
+        "pagePath": "pages/footprint/footprint",
+        "iconPath": "images/clock.png",
+        "selectedIconPath": "images/clock-active.png"
+      }
+    ]
+  },
+  "style": "v2"
+}
